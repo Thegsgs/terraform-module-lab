@@ -98,17 +98,17 @@ resource "kubernetes_service" "nginx-svc" {
 }
 ```
 
-4. Login into github and create a new repository and name it according to the terraform naming convention, i.e: terraform-PROVIDER-NAME 
+4. Login into github, create a new repository and name it according to the terraform naming convention, i.e: terraform-PROVIDER-NAME 
    (example: terraform-aws-ec2-instance).
 
-5. Follow the instructions in your newly created git repository to upload your module files to the repository.
+5. Follow the instructions in your newly created repository to upload your module files.
 
 6. After the repository contains your terraform file and README, navigate to the Releases section on the right side of the repository page and click "Create new release".
 
 7. Click "Choose a tag" and enter whatever release tag you want. More information about tagging releases can be found on the right side of the page. We will choose v1.0.0 for this lab. and click "Publish release"
 
-8. After our release is created you can navigate to the terraform repository and register/login to your account.
+8. After our release is published, you can navigate to the terraform registry and register/login your account.
 
-9. Under "Publish" select module and in the selection screen select your newly created repository, agree to the terms of service and click Publish.
+9. Under "Publish" at the top right corner, select Module and in the selection screen select your newly created repository, agree to the terms of service and click Publish.
 
 10. You should now see your module as published on the terraform registry with instructions on how to use the module on the right side of the module page. Done!
